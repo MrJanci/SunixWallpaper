@@ -1,0 +1,26 @@
+{
+  "geode": "4.8.0",
+  "gd": { "win": "2.2074", "android": "2.2074", "ios": "2.2074" },
+  "version": "v1.0.0",
+  "id": "laugny.sunix-wallpaper",
+  "name": "Sunix Wallpaper",
+  "developers": ["Laugny"],
+  "description": "Custom Menu Wallpaper for Sunix Thingy 2",
+  "resources": {
+    "sprites": [
+      "res/background.png",
+      "res/tree.png",
+      "res/sun.png"
+    ],
+    "files": [
+      "res/particleEffect.plist"
+    ]
+  },
+  "dependencies": [
+    { "id": "geode.node-ids", "version": ">=1.12.0", "importance": "required" }
+  ],
+  "settings": {
+     "particles": { "name": "Toggle particles", "type": "bool", "default": true },
+    "suppress_level_particles": { "name": "Auto-hide gameplay particles", "type": "bool", "default": true }
+  }
+}
